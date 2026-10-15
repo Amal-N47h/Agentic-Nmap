@@ -1,0 +1,25 @@
+{
+  "name": "nmap-agent",
+  "version": "0.2.0",
+  "description": "Agentic AI that plans, runs and interprets nmap scans. Works with Claude, Groq, Gemini or local Ollama.",
+  "type": "module",
+  "license": "MIT",
+  "engines": { "node": ">=20" },
+  "scripts": {
+    "start": "tsx src/index.ts",
+    "typecheck": "tsc --noEmit"
+  },
+  "keywords": ["nmap", "ai-agent", "llm", "cybersecurity", "pentesting", "typescript", "tool-use"],
+  "dependencies": {
+    "@anthropic-ai/sdk": "^0.60.0",
+    "dotenv": "^16.4.5",
+    "fast-xml-parser": "^4.5.0",
+    "openai": "^5.0.0",
+    "zod": "^3.23.8"
+  },
+  "devDependencies": {
+    "@types/node": "^22.0.0",
+    "tsx": "^4.19.0",
+    "typescript": "^5.6.0"
+  }
+}
